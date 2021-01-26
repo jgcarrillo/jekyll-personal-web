@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "es_ES" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="presentation h-card">
+        <p class="presentation__avatar">
+            <img class="presentation__icon u-photo" id="imagen-jgcarrillo" src="{{ "/assets/images/jgcarrillo.jpg" | relative_url }}" alt="Jorge">
+        </p>
+
+        <div class="presentation__text">
+            <h1 class="presentation__title">Hola, soy <span class="p-name">Jorge</span><span class="blinking">_</span></h1>
+            <div class="presentation__body">
+                {{ content }}
+            </div>
+        </div>
+    </main>
+
+    {%- include navbar.html -%}
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
