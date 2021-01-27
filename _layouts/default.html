@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "es" }}">
+<html lang="{{ page.lang | default: site.lang | default: "en_US" }}">
 
-  {%- include head.html -%}
+  {% include head.html %}
 
   <body>
-    {%- include header.html -%}
+    {% include header.html %}
 
-    <main class="entry entry--page h-entry">
-      {%- include date.html -%}
+    <main class="entry">
+      {% if page.url != '/404.html' %}
+      {% include date.html %}
+      {% endif %}
       <div class="e-content">
         {{ content }}
       </div>
     </main>
 
-    {%- include navbar.html -%}
-    {%- include footer.html -%}
+    {% include navbar.html %}
+    {% include footer.html %}
 
   </body>
-
 </html>

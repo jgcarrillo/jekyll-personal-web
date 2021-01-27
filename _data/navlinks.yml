@@ -1,0 +1,19 @@
+navbar_link_list: Links para la nabvar
+links:
+  - title: Inicio
+    url: index.html
+
+  - title: GitHub
+    url: https://github.com/jgcarrillo/
+
+  - title: Codepen
+    url: https://codepen.io/jgcarrillo/
+
+  - title: Proyectos
+    url: /proyectos
+
+  - title: Acerca de
+    url: /acerca-de
+
+  - title: Contacto
+    url: /contacto
