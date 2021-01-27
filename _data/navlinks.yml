@@ -1,7 +1,7 @@
 navbar_link_list: Links para la nabvar
 links:
   - title: Inicio
-    url: index.html
+    url: /
 
   - title: GitHub
     url: https://github.com/jgcarrillo/
@@ -17,3 +17,6 @@ links:
 
   - title: Contacto
     url: /contacto
+
+  - title: Blog
+    url: /blog

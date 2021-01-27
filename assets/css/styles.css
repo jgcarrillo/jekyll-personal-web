@@ -4,14 +4,9 @@
 	--link-color: #4271ae;
 	--link-hover-color: #c82829;
 	--header-border: #d6d6d6;
-}
-
-[data-theme='dark'] {
-	--font-color: #eeeeee;
-	--bg-color: #282c34;
-	--link-color: #e0a275;
-	--link-hover-color: #b9855f;
-	--header-border: #36464e;
+	--tag-bg: #f3f3f3;
+	--btn-color-bg: #000;
+	--btn-color-font: #fff;
 }
 
 html {
@@ -324,6 +319,40 @@ input:checked + .slider:before {
 
 .estiloLista {
 	line-height: 1;
+}
+
+.btn__art {
+	display: inline-block;
+	padding: 0.5em 1em;
+	background: var(--btn-color-bg);
+	color: var(--btn-color-font);
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 2px;
+}
+
+#star__icon {
+	width: 0.9em;
+}
+
+/* TAGS */
+#tag__list {
+	padding-left: 0;
+}
+
+.tag__item {
+	background-color: var(--tag-bg);
+	display: inline;
+}
+
+.tag__item::after {
+	content: ',';
+	font-size: 0;
+}
+
+/* FEATURED POST */
+.featured {
+	list-style-image: url('../images/star.svg');
 }
 
 /*  404 Page */

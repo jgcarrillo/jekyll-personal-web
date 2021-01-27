@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+{% if post.tags.size > 0 %}
+    <p>{{ post.tags | sort | join: ", " }}</p>
+{% endif %}
+
+{{ content }}
+
+<a href="{{ "/blog" | relative_url }}">< Volver al listado</a>

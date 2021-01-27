@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<article>
+	<p>Aquí tienes un listado de todos mis artículos publicados. Puedes buscarlos por <strong>año</strong> o por <strong>tag.</strong></p>
+	<p>
+		Los artículos marcados con una <img src="{{ "/assets/images/star.svg" | relative_url }}" id="star__icon" alt="star icon"> son
+		<strong>artículos destacados.</strong>
+	</p>
+
+	<h2>2021</h2>
+	<ul>
+		{% for post in site.posts %}
+		<li>
+			<a href="{{ post.url }}">{{ post.title }}</a>
+			<small>{{ post.date | date_to_string }}</small>
+		</li>
+		{% endfor %}
+	</ul>
+
+	<p>Otros tags:</p>
+	<ul id="tag__list">
+	{% for tag in site.tags %}
+		<li class="tag__item">
+			<a href=""><code>{{ tag[0] }}</a></code></a>
+		</li>
+	{% endfor %}
+	</ul>
+</article>

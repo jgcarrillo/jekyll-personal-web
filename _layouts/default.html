@@ -7,9 +7,14 @@
     {% include header.html %}
 
     <main class="entry">
-      {% if page.url != '/404.html' %}
+      {% assign psize = site.posts | size %}
+
+      {% if page.url != '/404.html' and psize == 0 %}
       {% include date.html %}
+      {% elsif psize == 1 %}
       {% endif %}
+
+
       <div class="e-content">
         {{ content }}
       </div>
