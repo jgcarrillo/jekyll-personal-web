@@ -5,17 +5,20 @@ layout: default
 <article>
 	<p>Here is the full list of all the articles. You can browse them by <strong>year</strong> or by <strong>tag.</strong></p>
 	<p>
-		Articles marked with a <img src="{{ "/assets/images/star.svg" | relative_url }}" id="star__icon" alt="star icon"> are
+		Articles marked with a <img src="{{ "/assets/images/star.svg" | relative_url }}" class="some__icon" alt="star icon"> are
 		<strong>featured articles.</strong>
 	</p>
 
 	<h2>2021</h2>
 	<ul>
 		{% for post in site.posts %}
+		{% assign dyear = post.date | date: '%Y' %}
+		{% if dyear == '2021' %}
 		<li>
 			<a href="{{ post.url }}" class="post__link">{{ post.title }}</a>
-			<small>{{ post.date | date_to_string }}</small>
+			<small>({{ post.date | date_to_string }})</small>
 		</li>
+		{% endif %}
 		{% endfor %}
 	</ul>
 
@@ -23,7 +26,7 @@ layout: default
 	<ul id="tag__list">
 	{% for tag in site.tags %}
 		<li class="tag__item">
-			<a href=""><code>{{ tag[0] }}</a></code></a>
+			<a href="/tag/{{ tag[0] }}"><code>{{ tag[0] }}</a></code></a>
 		</li>
 	{% endfor %}
 	</ul>

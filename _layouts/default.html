@@ -8,8 +8,9 @@
 
     <main class="entry">
       {% assign psize = site.posts | size %}
+      {% assign tsize = site.tags | size %}
 
-      {% if page.url != '/404.html' or psize == 0 %}
+      {% if page.url != '/404.html' or psize == 0 or tsize == 0 %}
       {% unless page.path contains 'post' %}
       {% include date.html %}
       {% endunless %}

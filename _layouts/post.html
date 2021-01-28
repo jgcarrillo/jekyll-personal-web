@@ -2,7 +2,14 @@
 layout: default
 ---
 
-<time>{{ page.date | date_to_string }}</time>
+<time class="time__separator">{{ page.date | date_to_string | upcase }}</time>
+<img src="{{ "/assets/images/tag.svg" | relative_url }}" class="some__icon tag__icon__color" alt="tag icon">
+<span>[
+  {% for tag in page.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <a href="/tag/{{ tag_name }}"><code class="color__tag__post"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+  {% endfor %}
+]</span>
 
 {{ content }}
 

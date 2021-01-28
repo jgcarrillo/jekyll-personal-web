@@ -331,8 +331,12 @@ input:checked + .slider:before {
 	border-radius: 2px;
 }
 
-#star__icon {
+.some__icon {
 	width: 0.9em;
+}
+
+.tag__icon__color {
+	opacity: 60%;
 }
 
 /* TAGS */
@@ -375,6 +379,14 @@ input:checked + .slider:before {
 .w__padding {
 	padding-left: 0;
 	margin-bottom: 4em;
+}
+
+.time__separator::after {
+	content: ' - ';
+}
+
+.color__tag__post {
+	background-color: var(--tag-bg);
 }
 
 /* ---.---.---.---. MEDIA QUERY ---.---.---.---. */
