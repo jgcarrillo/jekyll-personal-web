@@ -1,50 +1,38 @@
-# Bienvenid@ a mi web personal
+# Welcome to my personal website
 
-## Tabla de contenidos
+## Table of contents
 
-1. [Una breve historia del blog](#una-breve-historia-del-blog)
-2. [Instalación y uso de Jekyll](#instalacion-y-uso-de-jekyll)
-3. [Instalar plugins](#instalar-plugins)
-4. [Cambiar el tema por defecto](#cambiar-el-tema-por-defecto)
-5. [Estructura de directorios](#estructura-de-directorios)
+2. [How to install Jekyll](#how-to-install-jekyll)
+3. [How to install plugins](#how-to-install-plugins)
+4. [How to change the default theme](#how-to-change-the-default-theme)
+5. [Directory structure](#directory-structure)
+6. [Update the Gemfile for use on GitHub Pages](#update-the-gemfile-for-use-on-github-pages)
 
-## Una breve historia del blog
+## How to install Jekyll
 
-## Instalación y uso de Jekyll
+1. Download Ruby+DevKit from [here](https://jekyllrb.com/docs/installation/windows/).
+2. Install it.
+3. Do the steps 1, 2 and 3 in order of appearance.
+4. Check that everything its ok with `ruby -v`, `gem -v`
+5. Do an `gem install jekyll bundler` install **bundler** and, after that, check that **Jekyl** it is installed with `jekyll -v`
+6. Create a new project ` jekyll new nombre-proyecto`
+7. A default directory folder was created with the _minimal_ theme.
+8. Go to **Gemfile** and insert the line `gem "webrick`
+9. Do a `bundle install`
+10. Do a `bundle exec jekyll serve` to create the site folder and the server.
 
-1. Descargar Ruby+DevKit desde [su web](https://jekyllrb.com/docs/installation/windows/)
+## How to install plugins
 
-2. Hacer la instalación dándole siguiente a todo
+1. Go to [this website](https://jekyllrb.com/docs/plugins/your-first-plugin/).
+2. Check the documentation of the plugin an add in `_config.yml` an `Gemfile` the necessary line.
 
-3. Cuando se habra la consola, hacer los pasos 1, 2 y 3 en orden. Tardará un rato.
+## How to change the default theme
 
-4. Comprobar que está todo instalado con `ruby -v`, `gem -v`
+We can disable the default theme by comment the appropriate line in `_config.yml` and `Gemfile`. Whe can choose our personal directory structure.
 
-5. Hecho esto, hacer un `gem install jekyll bundler` y, acto seguido, comprobar que está instalado **Jekyl** con `jekyll -v`
+If we want to know where the default theme is, do an `bundle info --path minima`. The, with the _cd_ command go to the path to see the folders.
 
-6. Crear un nuevo proyecto con ` jekyll new nombre-proyecto`
-
-7. Se nos creará una estructura por defecto, con el tema _minimal_.
-
-8. Ir al archivo **Gemfile** y añadir la línea `gem "webrick`
-
-9. Hacer un `bundle install`
-
-10. Hacer un `bundle exec jekyll serve` para levantar el servidor
-
-## Instalar plugins
-
-1. Acudir a [la dirección siguiente](https://jekyllrb.com/docs/plugins/your-first-plugin/)
-
-2. Básicamente consiste en añadir una línea en el archivo `_config.yml` y otra en el archivo `Gemfile`. Revisar la documentación de cada plugin.
-
-## Cambiar el tema por defecto.
-
-Se puede desactivar, comentando las lineas para el tema que se encuentran en el archivo `_config.yml` y `Gemfile`. Y ya seguir la con esa estructura pero con nuestro estilo.
-
-Para saber cómo esta compuesto el tema por defecto, hacer `bundle info --path minima`. Esto nos dará la ruta del tema. Hacemos _cd_ para entrar en el y un _ls_ para ver los archivos.
-
-## Estructura de directorios
+## Directory structure
 
 ```
 .
@@ -70,3 +58,9 @@ Para saber cómo esta compuesto el tema por defecto, hacer `bundle info --path m
 ├── .jekyll-metadata
 └── index.html # can also be an 'index.md' with valid front matter
 ```
+
+## Update the Gemfile for use on GitHub Pages
+
+1. First of all you need to set your appropriate GitHub Pages repository.
+2. Go to your _Gemfile_ and comment the line `gem "jekyll"` and uncomment the line `gem "github-pages", group: :jekyll_plugins`
+3. In the terminal execute: `bundle update github-pages`. If an error ocurred, try `bundle install` to install the necesary dependencies. After this, execute `bundle update` and finally `bundle install` again to ensure github-pages has already installed.
