@@ -2,9 +2,7 @@
 layout: default
 ---
 
-{% if post.tags.size > 0 %}
-    <p>{{ post.tags | sort | join: ", " }}</p>
-{% endif %}
+<time>{{ page.date | date_to_string }}</time>
 
 {{ content }}
 

@@ -1,6 +1,6 @@
 navbar_link_list: Links para la nabvar
 links:
-  - title: Inicio
+  - title: Home
     url: /
 
   - title: GitHub
@@ -9,14 +9,14 @@ links:
   - title: Codepen
     url: https://codepen.io/jgcarrillo/
 
-  - title: Proyectos
-    url: /proyectos
+  - title: Projects
+    url: /projects
 
-  - title: Acerca de
-    url: /acerca-de
+  - title: About
+    url: /about
 
-  - title: Contacto
-    url: /contacto
+  - title: Contact
+    url: /contact
 
   - title: Blog
     url: /blog

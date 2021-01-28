@@ -13,9 +13,20 @@
         </p>
 
         <div class="presentation__text">
-            <h1 class="presentation__title">Hola, soy <span class="p-name">Jorge</span><span class="blinking">_</span></h1>
+            <h1 class="presentation__title">Hi, I'm <span class="p-name">Jorge</span><span class="blinking">_</span></h1>
             <div class="presentation__body">
                 {{ content }}
+
+                <h2 id="home__articles">Lastest articles</h2>
+                <ul class="w__padding">
+                  {% for post in site.posts limit: 5 %}
+                    <li>
+                      <a href="{{ post.url }}" class="post__link">{{ post.title }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+
+                <a href="{{ "/blog" | relative_url }}" class="btn__art">See the full list of articles</a>
             </div>
         </div>
     </main>

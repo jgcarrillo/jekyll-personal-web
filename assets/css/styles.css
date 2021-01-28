@@ -42,7 +42,7 @@ a {
 .entry,
 .presentation {
 	margin: 0 auto;
-	max-width: 640px;
+	max-width: 700px;
 	padding: 20px;
 }
 
@@ -359,6 +359,22 @@ input:checked + .slider:before {
 #error-404 {
 	margin: 0px auto;
 	text-align: center;
+}
+
+/* POST LINK */
+.post__link {
+	color: var(--font-color);
+	text-decoration: underline;
+	font-size: 1.1em;
+}
+
+#home__articles {
+	margin-top: 2em;
+}
+
+.w__padding {
+	padding-left: 0;
+	margin-bottom: 4em;
 }
 
 /* ---.---.---.---. MEDIA QUERY ---.---.---.---. */
