@@ -5,7 +5,7 @@
 2. [How to install Jekyll](#how-to-install-jekyll)
 3. [How to install plugins](#how-to-install-plugins)
 4. [How to change the default theme](#how-to-change-the-default-theme)
-5. [Directory structure](#directory-structure)
+5. [Basic directory structure](#basic-directory-structure)
 6. [Update the Gemfile for use on GitHub Pages](#update-the-gemfile-for-use-on-github-pages)
 
 ## How to install Jekyll
@@ -32,7 +32,7 @@ We can disable the default theme by comment the appropriate line in `_config.yml
 
 If we want to know where the default theme is, do an `bundle info --path minima`. The, with the _cd_ command go to the path to see the folders.
 
-## Directory structure
+## Basic directory structure
 
 ```
 .
