@@ -361,8 +361,11 @@ input:checked + .slider:before {
 
 /*  404 Page */
 #error-404 {
-	margin: 0px auto;
 	text-align: center;
+}
+
+.container__404 {
+	margin-top: 2em;
 }
 
 /* POST LINK */
@@ -387,6 +390,11 @@ input:checked + .slider:before {
 
 .color__tag__post {
 	background-color: var(--tag-bg);
+}
+
+#gif__404 {
+	margin: 0px auto;
+	display: block;
 }
 
 /* ---.---.---.---. MEDIA QUERY ---.---.---.---. */

@@ -1,0 +1,21 @@
+---
+title: '404: Page not found'
+layout: default
+permalink: /404.html
+---
+
+<h1 id="error-404">404, aun así...</h1>
+
+<img src="{{ "/assets/images/this-is-fine-404.gif" | relative_url }}" id="gif__404" alt="this is fine">
+
+<div class="container__404">
+	<h3 id="error-404">Te animo a que sigas echándole un vistazo a la web, ¡lo mismo encuentras algo interesante!</h3>
+
+	<ul class="container__404">
+		{% for post in site.posts limit: 3 %}
+		<li>
+			<a href="{{ post.url }}" class="post__link">{{ post.title }}</a>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
