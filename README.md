@@ -64,3 +64,10 @@ If we want to know where the default theme is, do an `bundle info --path minima`
 1. First of all you need to set your appropriate GitHub Pages repository.
 2. Go to your _Gemfile_ and comment the line `gem "jekyll"` and uncomment the line `gem "github-pages", group: :jekyll_plugins`
 3. In the terminal execute: `bundle update github-pages`. If an error ocurred, try `bundle install` to install the necesary dependencies. After this, execute `bundle update` and finally `bundle install` again to ensure github-pages has already installed.
+
+---
+
+Code of my personal website [jgcarrillo.com](https//jgcarrillo.com)
+
+- [Jekyll](https://jekyllrb.com/)
+- Hosted in [GitHub Pages](https://github.com/)
