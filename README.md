@@ -25,7 +25,7 @@
 ## 2. How to install plugins
 
 1. Go to [this website](https://jekyllrb.com/docs/plugins/your-first-plugin/).
-2. Check the documentation of the plugin an add in `_config.yml` an `Gemfile` the necessary line.
+2. Check the documentation of the plugin an add in `_config.yml` and `Gemfile` the necessary line.
 
 ## 3. How to change the default theme
 
