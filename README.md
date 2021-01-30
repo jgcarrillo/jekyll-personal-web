@@ -2,12 +2,12 @@
 
 ## Table of contents
 
-1. [How to install Jekyll](#how-to-install-jekyll)
-2. [How to install plugins](#how-to-install-plugins)
-3. [How to change the default theme](#how-to-change-the-default-theme)
-4. [Basic directory structure](#basic-directory-structure)
-5. [Update the Gemfile for use on GitHub Pages](#update-the-gemfile-for-use-on-github-pages)
-6. [Plugin SEO tags](#plugin-seo-tags)
+1. [How to install Jekyll](#1-how-to-install-jekyll)
+2. [How to install plugins](#2-how-to-install-plugins)
+3. [How to change the default theme](#3-how-to-change-the-default-theme)
+4. [Basic directory structure](#4-basic-directory-structure)
+5. [Update the Gemfile for use on GitHub Pages](#5-update-the-gemfile-for-use-on-github-pages)
+6. [Plugin SEO tags](#6-plugin-seo-tags)
 
 ## 1. How to install Jekyll
 
