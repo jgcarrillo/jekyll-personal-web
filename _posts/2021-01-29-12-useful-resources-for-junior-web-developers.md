@@ -5,6 +5,8 @@ permalink: /blog/:year/:title/
 tags: [tips, resources]
 ---
 
+{: .post-h1}
+
 # 12 USEFUL RESOURCES FOR JUNIOR WEB DEVELOPERS
 
 ### List of resources

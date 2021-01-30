@@ -1,10 +1,14 @@
 # Setup
 title: JGCarrillo
-description: 'Desarrollador Web'
-baseurl: '/'
-url: 'https://jgcarrillo.com/'
-twitter_username: jgcarrillo_
-github_username: jgcarrillo
+description: "Hi, I'm Jorge, welcome to my website!
+I'm a software developer based in Murcia (Spain). Here you can find
+my latest articles about software development, tips and any other
+things related with webs, as well as have a look at my work."
+baseurl: /
+url: https://jgcarrillo.com/
+twitter:
+  username: jgcarrillo_
+  card: summary
 
 # Build settings
 plugins:

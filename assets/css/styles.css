@@ -398,9 +398,22 @@ input:checked + .slider:before {
 }
 
 /* ---.---.---.---. MEDIA QUERY ---.---.---.---. */
-@media only screen and (min-width: 800px) {
-	.entry {
-		line-height: 1.5;
+@media only screen and (max-width: 760px) {
+	.w__padding li {
+		list-style: none;
+	}
+
+	.header__brand {
+		float: none;
+		margin: 0px auto;
+	}
+
+	.presentation__icon {
+		max-width: 130px;
+	}
+
+	#post-title-res {
+		font-size: 0.8em;
 	}
 }
 
@@ -417,5 +430,9 @@ input:checked + .slider:before {
 	}
 	.presentation__text {
 		flex: 1;
+	}
+
+	.entry {
+		line-height: 1.5;
 	}
 }
