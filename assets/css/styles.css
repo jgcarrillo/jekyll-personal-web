@@ -133,6 +133,7 @@ b {
 .header__icon {
 	height: 48px;
 	width: 48px;
+	image-rendering: -webkit-optimize-contrast;
 }
 
 .presentation {
