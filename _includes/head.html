@@ -10,6 +10,9 @@
 	<title>{{ site.title }}</title>
 	{% endif %}
 
+	<!-- OG:IMAGE -->
+	{{% if page.image %}} <meta property="og:image" content="{{ "/assets/images/maquina.jpg" | relative_url }}" > {{% endif %}}
+
 	<!-- SEO -->
 	{% seo %}
 

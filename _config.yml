@@ -6,7 +6,11 @@ my latest articles about software development, tips and any other
 things related with webs, as well as have a look at my work."
 baseurl: /
 url: https://jgcarrillo.com/
-image: /assets/images/maquina.jpg
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/maquina.jpg
 twitter:
   username: jgcarrillo_
   card: summary
