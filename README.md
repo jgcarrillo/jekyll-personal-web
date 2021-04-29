@@ -18,7 +18,7 @@
 5. Do an `gem install jekyll bundler` install **bundler** and, after that, check that **Jekyl** it is installed with `jekyll -v`
 6. Create a new project ` jekyll new nombre-proyecto`
 7. A default directory folder was created with the _minimal_ theme.
-8. Go to **Gemfile** and insert the line `gem "webrick`
+8. Go to **Gemfile** and insert the line `gem "webrick"`
 9. Do a `bundle install`
 10. Do a `bundle exec jekyll serve` to create the site folder and the server.
 
