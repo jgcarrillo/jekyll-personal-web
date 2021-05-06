@@ -70,7 +70,7 @@ For me, set up a correct environment for PHP development is essential because th
 
 Other issue that I found was that MSI laptops don't behave as well as I would like with Linux O.S. Different problems such as compatibilities or drivers make changing the O.S. really difficult.
 
-## Conclusions
+## To Sum Up
 
 I think know Linux is attractive, if you are familiar with commands and terminals you probably will found Linux as a PRO extension of this. In the rest of the cases, it will be very anoying to introduce in it.
 
