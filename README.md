@@ -66,6 +66,8 @@ If we want to know where the default theme is, do an `bundle info --path minima`
 2. Go to your _Gemfile_ and comment the line `gem "jekyll"` and uncomment the line `gem "github-pages", group: :jekyll_plugins`
 3. In the terminal execute: `bundle update github-pages`. If an error ocurred, try `bundle install` to install the necesary dependencies. After this, execute `bundle update` and finally `bundle install` again to ensure github-pages has already installed.
 
+In some cases you only need to run `bundle update` in order to get the lastests updates of your Gemfile dependencies.
+
 ## 6. Plugin SEO tags
 
 In order to set the appropriate SEO tags you need to install [jekyll-seo-tags](https://github.com/jekyll/jekyll-seo-tag). Be carefull with YAML sintaxys.
