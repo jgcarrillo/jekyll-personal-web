@@ -78,3 +78,4 @@ Code of my personal website [jgcarrillo.com](https://jgcarrillo.com)
 
 - [Jekyll](https://jekyllrb.com/)
 - Hosted in [GitHub Pages](https://github.com/)
+- [Documentation about Liquid template language](https://shopify.github.io/liquid/)
