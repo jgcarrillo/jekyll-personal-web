@@ -1,12 +1,15 @@
 <footer class="footer">
-	<p>Hosted in <a href="https://github.com//" target="_blank">GitHub Pages</a> &copy; 2020-2021 - Jorge Gómez. All rights reserved.</p>
+	<p>
+		Hosted in <a href="https://github.com//" target="_blank">GitHub Pages</a> &copy; 2020-{{ "now" | date:
+		'20%y' }} - Jorge Gómez. All rights reserved.
+	</p>
 	<p>
 		<a class="footer__linkbadge" href="https://validator.w3.org">
 			<img class="footer__badge" src="{{ "/assets/images/html5.png" | relative_url }}" alt="HTML 5" />
 		</a>
 		<a class="footer__linkbadge" href="https://creativecommons.org/licenses/by-nc-sa/3.0/es/" rel="license">
-			<img class="footer__linkbadge" src="{{ "/assets/images/ccbyncsa.png" | relative_url }}" alt="Creative Commons Reconocimiento-No Comercial-Compartir Igual"
-			/>
+			<img class="footer__linkbadge" src="{{ "/assets/images/ccbyncsa.png" | relative_url }}" alt="Creative
+			Commons Reconocimiento-No Comercial-Compartir Igual" />
 		</a>
 		<a class="footer__linkbadge" href="https://jekyllrb.com">
 			<img class="footer__linkbadge" src="{{ "/assets/images/jekyllrb.png" | relative_url }}" alt="Jekyll" />
