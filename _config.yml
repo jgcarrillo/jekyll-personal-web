@@ -10,7 +10,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/maquina.jpg
+      image: /assets/images/thumb.jpg
 twitter:
   username: jgcarrillo_
   card: summary
