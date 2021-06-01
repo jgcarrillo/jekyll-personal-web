@@ -1,6 +1,6 @@
 <header class="entry__header">
 	<h1 class="entry__title p-name">{{ page.title }}</h1>
 	{% if page.url != '/blog' %}
-	<p class="entry__meta meta">Last updated: {{ "now" | date: '%B, 20%y' }}</p>
+	<p class="entry__meta meta">Last updated: {{ site.time | date: '%B, 20%y' }}</p>
 	{% endif %}
 </header>
