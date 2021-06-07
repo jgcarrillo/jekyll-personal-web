@@ -41,4 +41,4 @@ On the other hand, I tried the Apple version of Paint (I'm sorry, I am a Windows
 
 ## To Sum Up
 
-I didn't explore all the possibilities of the Operating System at all. I only played with some features an utilities due to my poor knowledge about Apple's O.S.
+I didn't explore all the possibilities of the Operating System at all. I only played with some features an utilities due to my poor knowledge about Apple's O.S. I have been impressed by the quality of the operating system **considering that it is from the 80s**. It would be interesting to continue using the O.S., although I think that where it can be used the most is in the use of classic games.
