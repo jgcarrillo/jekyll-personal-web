@@ -49,3 +49,5 @@ Unlike another systems, MAME ROMs (Arcade games) have given me a lot of toubles.
 Once you have all those things, you need to go to Retroarch, click in _Import Content > Manual Scan_ and select the directory, core and the dat directory you download earlier. You can check the [official documentation](https://docs.libretro.com/library/fbneo/).
 
 ## TO SUM UP
+
+After a few years testing Retroarch, I can say that it's my favourite solution because I can play a wide variety of retro games. It's true that there are some previou steps to configure it correctly, but once the hard work is done the magic just appears.
