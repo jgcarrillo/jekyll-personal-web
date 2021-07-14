@@ -1,5 +1,5 @@
 ---
-title: About
+title: 🏄‍♂️ About
 layout: default
 permalink: /about/
 ---

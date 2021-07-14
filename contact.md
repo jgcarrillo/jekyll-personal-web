@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: 👴 Contact
 layout: default
 permalink: /contact/
 ---
