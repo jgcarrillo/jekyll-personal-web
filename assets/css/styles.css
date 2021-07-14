@@ -40,7 +40,7 @@ a {
 .menu,
 .footer,
 .entry,
-.header,
+.header__container,
 .presentation {
 	margin: 0 auto;
 	max-width: 700px;
@@ -252,10 +252,9 @@ b {
 	margin-bottom: 0;
 }
 
-/* .entry__header,
 .entry__header {
 	padding: 30px 0;
-} */
+}
 
 .entry__title,
 .entry__title {
