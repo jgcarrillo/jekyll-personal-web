@@ -40,6 +40,7 @@ a {
 .menu,
 .footer,
 .entry,
+.header,
 .presentation {
 	margin: 0 auto;
 	max-width: 700px;
@@ -116,10 +117,10 @@ b {
 	animation-play-state: running;
 }
 
-.header {
+.header__container {
 	border-bottom: 1px solid var(--header-border);
-	padding: 20px;
-	height: 2.2em;
+	padding-bottom: 20px;
+	height: 3.2em;
 }
 
 .header__brand {
@@ -191,6 +192,11 @@ b {
 	content: '';
 }
 
+/* .triborder {
+	background: #333333 url(../images/trifoot.png);
+	height: 6px;
+} */
+
 .footer {
 	font-size: 0.9em;
 	padding-top: 0;
@@ -246,10 +252,10 @@ b {
 	margin-bottom: 0;
 }
 
-.entry__header,
+/* .entry__header,
 .entry__header {
 	padding: 30px 0;
-}
+} */
 
 .entry__title,
 .entry__title {
