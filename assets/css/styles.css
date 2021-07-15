@@ -399,7 +399,7 @@ input:checked + .slider:before {
 
 .w__padding {
 	padding-left: 0;
-	margin-bottom: 4em;
+	margin-bottom: 2.5em;
 }
 
 .time__separator::after {
