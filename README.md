@@ -1,5 +1,5 @@
 <div align="center">
-    <b>⚠️⚠️ I decided to migrate the old web from Jekyll to 11ty. [Here is the code](https://github.com/jgcarrillo/jgcarrillo.github.io) ⚠️⚠️</b>
+    <b>⚠️⚠️ I decided to migrate the old web from Jekyll to 11ty. The new web is deploy on Netlify <a href="https://jgcarrillo-jekyll-web.netlify.app/" alt="Netlify">through this link</a>. You can also see the code of the new one <a href="https://github.com/jgcarrillo/jgcarrillo.github.io" alt="GitHub repo">in this repo.</a> ⚠️⚠️</b>
 </div>
 # Welcome to my personal website
 
