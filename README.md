@@ -1,3 +1,6 @@
+<div align="center">
+    <b>⚠️⚠️ I decided to migrate the old web from Jekyll to 11ty. [Here is the code](https://github.com/jgcarrillo/jgcarrillo.github.io) ⚠️⚠️</b>
+</div>
 # Welcome to my personal website
 
 ## Table of contents
@@ -76,6 +79,6 @@ In order to set the appropriate SEO tags you need to install [jekyll-seo-tags](h
 
 Code of my personal website [jgcarrillo.com](https://jgcarrillo.com)
 
-- [Jekyll](https://jekyllrb.com/)
-- Hosted in [GitHub Pages](https://github.com/)
-- [Documentation about Liquid template language](https://shopify.github.io/liquid/)
+-   [Jekyll](https://jekyllrb.com/)
+-   Hosted in [GitHub Pages](https://github.com/)
+-   [Documentation about Liquid template language](https://shopify.github.io/liquid/)
